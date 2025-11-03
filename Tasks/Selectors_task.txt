@@ -1,0 +1,63 @@
+TASK LIST
+
+Task 1:
+Use an element selector to change the text color of all <p> tags to blue.
+Task 2:
+Use an element selector to make all <h1> headings green and center aligned.
+Task 3:
+Use an ID selector (#) to change the background color of a paragraph with id="special" to yellow.
+Task 4:
+Use an ID selector to make text with id="special" red and bold.
+Task 5:
+Use a class selector (.) to change the text color of all elements with class="highlight" to purple.
+Task 6:
+Use a class selector to give elements with class="highlight" a light gray background and italic text.
+Task 7:
+Use a group selector (,) to change the color of both <h1> and <h2> to orange.
+Task 8:
+Use a group selector to give both <button> and <a> a blue background and white text.
+Task 9:
+Use a group selector to change the text color of all <h1>, <p>, and <a> tags to dark green.
+Task 10:
+Use a descendant selector to change the color of <p> tags inside a <div> to brown.
+Task 11:
+Use a class + element selector to make <h2> inside a .highlight class blue.
+Task 12:
+Use an element selector to give the entire <body> a light blue background color.
+Task 13:
+Use an element selector to make all <p> text 18px, Arial font, and dark gray.
+Task 14:
+Use an element selector to remove underline from <a> links and make them red.
+Task 15:
+Use a mix of selectors:
+All <h1> → green
+Element with id="special" → yellow background
+Elements with class="highlight" → italic text
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selector Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to CSS Practice</h1>
+  <p>This is a simple paragraph.</p>
+  <p class="highlight">This paragraph has a class.</p>
+  <p id="special">This paragraph has an ID.</p>
+  <div>
+    <h2>Section Title</h2>
+    <p>Some text inside a div.</p>
+  </div>
+  <button>Click Me</button>
+  <a href="#">Sample Link</a>
+
+</body>
+</html>

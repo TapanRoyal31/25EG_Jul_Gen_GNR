@@ -1,0 +1,6 @@
+main 3 selectors
+
+1) id selector
+2) class selector
+3) element selector
+

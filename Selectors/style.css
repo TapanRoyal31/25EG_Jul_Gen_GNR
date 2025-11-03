@@ -1,0 +1,22 @@
+/* id selector */
+#par{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+/* class selector */
+.par{
+    color: aqua;
+}
+
+/* element selector */
+p{
+    font-size: 60px;
+}
+
+/* grouping selectors */
+#myclass ,h2 {
+    background-color: #212121;
+    font-family: "Momo Signature";
+}
