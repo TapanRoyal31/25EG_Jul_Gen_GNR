@@ -1,0 +1,38 @@
+/* universal selector (reset selector) */
+/* *{
+    border: 2px solid white;
+    padding: 10px; 
+    padding: 0px;
+    margin: 0px;
+} */
+
+
+/* .container{
+    border: 2px solid black;
+} */
+
+ /* descendant selector */
+/* .container p {
+     color: aqua; 
+} */
+
+/* child selctor */
+/* .container > p {
+    color: yellow;
+} */
+
+/* next-sibling selector */
+/* .container + p {
+    color: blue;
+} */
+
+/* sub-sequent selctor */
+/* .container + p, p[title="attribute"]  {
+    color: darkcyan;
+} */
+ 
+
+/* Attribute selector */
+/* p[target="_blank"]{
+    color: crimson;
+} */

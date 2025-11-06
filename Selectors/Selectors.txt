@@ -1,0 +1,28 @@
+main 3 selectors
+
+1) id selector :
+    to select element by using id name (#) 
+2) class selector :
+    to select element by using classname (.)
+3) element selector :
+    to select element by using element name (p)
+
+4) CSS combinators
+    - " " Descendant Selector :
+        --> The descendant combinator matches all elements that are descendants (children, grandchildren, etc.)
+        of a specified element.
+    
+    - ">" child selector :
+        --> The child combinator selects all elements that are direct children of a specified element.
+    
+    - "+" next sibling selector :
+        --> The next sibling combinator is used to select an element that is directly after a specific element.
+        Sibling elements must have the same parent element.
+
+    - "~" Subsequent-sibling combinator :
+        --> The subsequent-sibling combinator selects all elements that are next siblings of a specified element.
+    
+5) Attribute Selectors :
+    CSS attribute selectors are used to select and style HTML elements with a specific attribute or attribute value,
+    or both.(element_name[attribute])
+

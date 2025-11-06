@@ -23,3 +23,10 @@ css framework :
 
 
 color combination website : https://colorhunt.co/
+
+
+Css Priority :(lower to higher)
+
+Browser Css --> internal Css --> external Css --> inline Css
+
+group selector --> element selector --> class selector --> id selctor
