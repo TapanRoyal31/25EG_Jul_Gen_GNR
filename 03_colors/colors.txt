@@ -1,0 +1,12 @@
+CSS color Property :
+
+1) using color name => color : "color name";
+2) using rgb function => color : rgb(red , green , blue);
+3) using hexa value => color : #"hex value of color" 
+4) using hsl function => color : hsl(hue,saturation,lightness);
+
+
+Background color :
+
+1) using background => background : "color name";
+2) using background-color => background-color : "color name";

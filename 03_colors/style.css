@@ -10,17 +10,17 @@
 /* rgb function */
 /* p{
     color: rgb(46,86, 89);
-    color: hsl(240, 29%, 70%);
-} */
+    } */
 
 /* hexa value */
 /* p{
-    color: #000000;
-
-    color: #0000ff;
-} */
+        color: #000000;
+        
+        color: #0000ff;
+        } */
 
 /* hsl function */
 /* p{
+    color: hsl(240, 29%, 70%);
     color: hsla(0, 100%, 50%, 0.428);
 } */
