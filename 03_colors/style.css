@@ -1,0 +1,26 @@
+/* body{
+    background: papayawhip;
+} */
+
+/* color name */
+/* p{
+    color: aqua;
+} */
+
+/* rgb function */
+/* p{
+    color: rgb(46,86, 89);
+    color: hsl(240, 29%, 70%);
+} */
+
+/* hexa value */
+/* p{
+    color: #000000;
+
+    color: #0000ff;
+} */
+
+/* hsl function */
+/* p{
+    color: hsla(0, 100%, 50%, 0.428);
+} */
