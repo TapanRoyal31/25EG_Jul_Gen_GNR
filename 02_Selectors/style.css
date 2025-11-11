@@ -1,23 +1,30 @@
 /* id selector */
-#par{
-    /* font-style: italic; */
-    /* font-family: 'Courier New', Courier, monospace; */
+/* #par{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
     color: aqua;
-}
+} */
 
 /* class selector */
-.par{
+/* .par{
     color: black;
-}
+} */
 
  /* element selector */
-p{
-    /* font-size: 60px; */
+/* p{
+    font-size: 60px;
     color: red;
-}
+} */
 
 /* grouping selectors */
-p ,h1 {
+/* p ,h1 {
  color: blue;
+} */
+
+p,li,.myclass{
+    font-size: 36px;
 }
 
+li,.myclass{
+    color: aliceblue;
+}

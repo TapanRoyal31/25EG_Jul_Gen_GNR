@@ -1,0 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* px */
+/* h1{
+    font-size: 32px;
+    border: 2px dashed red;
+} */
+/* 
+header{
+    width: 50%;
+    border: 2px solid blue;
+} */
+
+
+ /* ch */
+/* p{
+    width: 50ch;
+} */
+
+/* 1px = 1/93 inch */
+
+/* percentage */
+
+/* h1{
+    width: 50%;
+} */
+
+/* view Width */
+/* p{
+    background-color: cyan;
+    width: 100vw; 
+     width: 100%; 
+} */
+
+/* view height */
+/* 
+p{
+    height: 100vh;
+    background-color: cyan;
+} */
