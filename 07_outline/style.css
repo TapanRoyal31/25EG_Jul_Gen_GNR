@@ -16,7 +16,8 @@ body {
   background: white;
   width: 70vw;
   padding: 3em;
-  outline: 70px solid rgba(0,76,155,.5);
+  outline: 5px solid rgba(0, 0, 10, 1);
+  outline-offset: -10px;
 }
 
 .title {

@@ -1,9 +1,16 @@
 .border {
   border: 2px solid red;
+  border-bottom-color: blue;
+  /* border-radius: 10px; */
 }
 
 .outline {
   outline: 2px solid red;
+  
+  /* background-color: #333; */
+  /* outline-offset: 5px; */
+  /* border-radius: 10px; */
+  /* outline-bottom-color: blue ; */
 }
 
 button {
@@ -33,7 +40,7 @@ button {
   --clr-body: #333;
   --clr-bg: #ddd;
   --spacer: 1rem;
-}
+} 
 
 *,
 *::before,
