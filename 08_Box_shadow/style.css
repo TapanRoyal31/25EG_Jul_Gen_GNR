@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    padding: 20px;
+    /* width: 50%; */
+    background-color: aliceblue;
+                /* h-off v-off blur rgba_function*/
+    box-shadow: inset -20px 20px lime,
+    inset 20px -20px red ;
+    border-radius: 50px;
+}
