@@ -17,6 +17,17 @@
     background-color: black;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+}
+
+.logo{
+    box-shadow: inset -50px 90px orangered,
+    inset -130px 0px yellow, 
+    inset 140px -20px green;
+}
+
+.circle{
+    box-shadow: ;
 }
 
 .circle{
