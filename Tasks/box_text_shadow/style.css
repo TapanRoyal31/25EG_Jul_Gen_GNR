@@ -1,0 +1,11 @@
+.cutout-box {
+  text-shadow: 2px 2px 1px rgba(255, 255, 255, 1),
+    -2px -2px 1px rgba(0, 0, 0, 1);
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1),
+    5px 5px 10px rgba(255, 255, 255, 0.8);
+}
+
+.glow-border {
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #ff0077;
+  box-shadow: 0 0 3px 3px #00ffff, 0 0 7px 10px #ff0077;
+}

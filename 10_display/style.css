@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.5rem;
+    background: #212121;
+}
+
+    /* justify-content: space-between / space-evenly / space-around / flex-end / flex-start / center */
+
+.container{
+    border: 2px red solid;
+    display: flex;
+    height: 99vh;
+    flex-direction: row; /* row / column / r_c-reverse */
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box{ 
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
