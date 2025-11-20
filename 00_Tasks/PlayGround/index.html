@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Playground</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        .task-box {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+        .play-area {
+            background: #fafafa;
+            border: 1px dashed #999;
+            padding: 20px;
+            min-height: 120px;
+            margin-top: 10px;
+        }
+
+     
+</style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <h1>CSS Practice Playground</h1>
+    <p>Each section contains elements where students can apply CSS according to the task instructions.</p>
+
+    <!-- ---------------- BOX SHADOW TASKS ---------------- -->
+    <h2>1) Box Shadow Tasks</h2>
+
+    <div class="task-box">
+        <h3>Task 1: Add a light box shadow to the card.</h3>
+        <div class="play-area">
+            <div class="card">Card Box</div>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 2: Add a hover shadow effect to the button.</h3>
+        <div class="play-area">
+            <button class="shadow-btn">Hover Me</button>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 3: Create a form container with a soft shadow.</h3>
+        <div class="play-area">
+            <div class="form-box">
+                <input type="text" placeholder="Username">
+                <br><br>
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------- POSITION TASKS ---------------- -->
+    <h2>2) Position Tasks</h2>
+
+    <div class="task-box">
+        <h3>Task 1: Position a badge inside the box using absolute positioning.</h3>
+        <div class="play-area">
+            <div class="relative-box">
+                Big Box
+                <div class="badge">New</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 2: Create a fixed header.</h3>
+        <div class="play-area">
+            <header class="fixed-header">I should stay on top</header>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 3: Place text over an image using absolute position.</h3>
+        <div class="play-area">
+            <div class="image-container">
+                <img src="https://picsum.photos/200/300" width="120" height="120" alt="#">
+                <p class="img-text">Your Text</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------- FLEX TASKS ---------------- -->
+    <h2>3) Flexbox Tasks</h2>
+
+    <div class="task-box">
+        <h3>Task 1: Center all boxes using flex.</h3>
+        <div class="play-area flex-center">
+            <div class="box">A</div>
+            <div class="box">B</div>
+            <div class="box">C</div>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 2: Create a card layout (image left, text right).</h3>
+        <div class="play-area card-flex">
+            <img src="https://picsum.photos/200/300" width="120" height="120" alt="#">
+            <p>This is some text beside the image.</p>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 3: Use space-between to spread items.</h3>
+        <div class="play-area space-between">
+            <div class="box">Item 1</div>
+            <div class="box">Item 2</div>
+            <div class="box">Item 3</div>
+        </div>
+    </div>
+
+    <!-- ---------------- BOX MODEL TASKS ---------------- -->
+    <h2>4) Box Model Tasks</h2>
+
+    <div class="task-box">
+        <h3>Task 1: Apply different paddings on all sides.</h3>
+        <div class="play-area">
+            <div class="padding-box">Padding Box</div>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 2: Add margin, padding, border, and border-radius.</h3>
+        <div class="play-area">
+            <div class="model-card">Box-Model Card</div>
+        </div>
+    </div>
+
+    <div class="task-box">
+        <h3>Task 3: Apply box-sizing: border-box.</h3>
+        <div class="play-area">
+            <div class="sizing-box">Box Sizing Test</div>
+        </div>
+    </div>
+
+</body>
+</html>
