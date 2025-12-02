@@ -4,14 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Effect</title>
+    <title>Practice session</title>
 </head>
-<link rel="stylesheet" href="style.css">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #212121;
+        color: aliceblue;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #loading {
+        border: 2px solid aqua;
+        height: 50px;
+        width: 50px;
+        transition: 1s ease;
+        animation-name: loading-div;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    }
+
+    @keyframes loading-div {
+        0% {
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            box-shadow: 0px 0px 0px 0px aqua;
+        }
+        
+        25% {
+            transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+            box-shadow: 0px 0px 10px 0px aqua;
+        }
+        
+        50% {
+            transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+            box-shadow: 0px 0px 20px 0px aqua;
+        }
+
+        100% {
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg);
+            box-shadow: 0px 0px 30px 0px aqua;
+        }
+
+    }
+
+
+    /*
+    Uiverse(css components): https://uiverse.io/
+    */
+</style>
+
 <body>
-    <div class="input-box">
-        <input type="text" placeholder=" " id="name">
-        <label for="name">Enter your name</label>
-    </div>
+    <div id="loading"></div>
 </body>
 
 </html>
