@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #212121;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        background-color: darkorchid;
+        height: 150px;
+        width: 150px;
+        outline: none;
+        border-radius: 50%;
+        transform: translateX(40vw);
+        box-shadow: 0px 0px 20px aquamarine;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        /* animation-name: box-rotation;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse; */
+        /* animation-fill-mode: ; */
+        animation: box-rotation 3s ease-in-out infinite alternate-reverse;
+    }
+
+    .box:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes box-rotation {
+        100%{
+             border-radius: 0%;
+             transform: translateX(-80vw) scale(5) rotate(360deg);
+             box-shadow: 0px 0px 0px aqua;
+        }
+    }
+</style>
+
+<body>
+    <div class="box">
+
+    </div>
+</body>
+<!--
+<div class="loader">
+  <span>L</span>
+  <span>O</span>
+  <span>A</span>
+  <span>D</span>
+  <span>I</span>
+  <span>N</span>
+  <span>G</span>
+</div>
+
+@keyframes flip {
+	35% {
+		transform: rotateX(360deg);
+	}
+	100% {
+		transform: rotatex(360deg);
+	}
+} 
+    
+.loader > span:nth-child(2) {
+	animation-delay: 0.3s;
+}
+
+.loader > span:nth-child(3) {
+	animation-delay: 0.6s;
+}
+
+.loader > span:nth-child(4) {
+	animation-delay: 0.9s;
+}
+
+.loader > span:nth-child(5) {
+	animation-delay: 1.2s;
+}
+
+.loader > span:nth-child(6) {
+	animation-delay: 1.5s
+}
+
+.loader > span:nth-child(7) {
+	animation-delay: 1.8s
+}-->
+
+
+<!-- website : https://freefrontend.com/css-animations//#google_vignette -->
+
+</html>
