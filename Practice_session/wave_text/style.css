@@ -1,0 +1,49 @@
+.wave-text {
+  font-size: 3em;
+  display: flex;
+  gap: 50px;
+}
+
+.wave-text span {
+  display: inline-block;
+  transition: text-shadow 5s linear;
+  animation: wave 5s linear infinite;
+}
+
+@keyframes wave {
+  0% , 100% {
+    transform: translateY(0px);
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+  }
+  50% {
+    transform: translateY(-40px);
+    color: cyan;
+    text-shadow: 0px 0px 10px cyan;
+  }
+}
+
+.wave-text .w {
+  animation-delay: 0;
+}
+.wave-text .a {
+  animation-delay: 0.3s;
+}
+.wave-text .v {
+  animation-delay: 0.6s;
+}
+.wave-text .e {
+  animation-delay: 0.9s;
+}
+.wave-text .t {
+  animation-delay: 1.2s;
+}
+.wave-text .e1 {
+  animation-delay: 1.5s;
+}
+.wave-text .x {
+  animation-delay: 1.8s;
+}
+.wave-text .t1 {
+  animation-delay: 2s;
+}
