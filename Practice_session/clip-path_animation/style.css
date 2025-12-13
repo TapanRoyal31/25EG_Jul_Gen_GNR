@@ -5,3 +5,25 @@
   animation: animate 4s infinite alternate;
 }
 
+@keyframes animate {
+  0%{
+    clip-path: circle(100% at center);
+  }
+  
+  25%{
+    clip-path: circle(25% at center);
+  }
+
+  50%{
+    clip-path: circle(25% at 20px 20px);
+  }
+
+  75%{
+    clip-path: circle(25% at right 50%);
+  }
+
+  100%{
+    clip-path: circle(25% at bottom left);
+  }
+
+}
