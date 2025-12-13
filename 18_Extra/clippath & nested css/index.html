@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --primary-color : #000 ;
+        --fontSize : 24px;
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background: var(--royal);
+    }
+
+    body,
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        background-color: blue;
+        height: 500px;
+        width: 700px;
+    }
+
+    .box {
+        background-color: yellow;
+        height: 300px;
+        width: 300px;
+        /* clip-path: ellipse(50% 25% ); */
+        /* clip-path: circle(); */
+        /* border-radius: 50%; */
+        /* nested css */
+        p{  
+            color: aliceblue;
+            font-size: var(--fontSize);
+        }
+    }
+
+    img {
+        /* clip-path: inset(30px 50px 100px 75px); */
+        /* clip-path: polygon(0 0,100% 0,100% 80%,0 100%); */
+        /* clip-path: inset(10% 20% 30% 40% round 15px); */
+        /* clip-path: inset(10% 20% 10% 10% round 15px); */
+        clip-path: circle();
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>hello royal</p>
+        </div>
+    </div>
+</body>
+
+</html>
