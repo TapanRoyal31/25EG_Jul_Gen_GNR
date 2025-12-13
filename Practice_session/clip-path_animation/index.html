@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: system-ui, sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+        color: #222;
+        background-color: #fff;
+        padding-block: 2rem 3rem;
+        overflow-x: hidden;
+    }
+
+    main {
+        max-width: 80%;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        margin-block-end: 2rem;
+    }
+
+    .container {
+        display: inline-block;
+        width: 50%;
+        max-width: 300px;
+        aspect-ratio: 1;
+        border: 1px solid #000;
+    }
+
+    .shape {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(-45deg, #ba71ff, #ff71b8);
+    }
+</style>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <main>
+        <h1>CSS Clip-Path</h1>
+        <h2>Creative shapes and animations</h2>
+        <div class="container animate">
+            <div class="shape"></div>
+        </div>
+    </main>
+</body>
+
+</html>
