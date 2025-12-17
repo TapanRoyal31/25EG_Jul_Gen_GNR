@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --bg-color: #212121;
+        --font-size: 36px;   
+        /* variables */
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        /* --border : 2px; */
+        background-color: var(--bg-color);
+        color: aliceblue;
+        font-size: var(--font-size);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: var(--border) solid red; */
+    }
+    
+    div{
+        --border : 4px;
+        background-color: aliceblue;
+        color: black;
+        font-size: 36px;
+        height: 300px;
+        /* width: max(500px,90%); */
+        /* width: calc(10px * 30px);  */
+        /* background-color: rgb(0 , 0 , calc(300 / 5) ); */
+        /* + - * / */
+    }
+</style>
+<body>
+    <div>CSS variables and Functions</div>
+</body>
+</html>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    body{
+    body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -17,19 +18,20 @@
         background-color: #212121;
         color: aliceblue;
     }
-    h2{
-        /* height: 300px;
-        width: 500px; */
+
+    /* h2{
+        height: 300px;
+        width: 500px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 36px;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
-    }
+    } */
 
     /* ::after :: before */
-    h2::before{
+    /* h2::before{
         content: '';
         position: absolute;
         height: 5px;
@@ -44,11 +46,36 @@
     h2:hover::before{
         width: 100%;
         transform: rotate(360deg);
-        cursor: pointer;
-    }
+    } */
 
+    /* div h2,
+    div p,
+    div h1{
+
+    } */
+/* 
+    div :is(h2, p, h1) {
+        height: 50px;
+        width: 100%;
+        background-color: aqua;
+        margin: 20px;
+    }
+     */
+
+/* 
+    input:nth-child(2){
+        color: purple;
+    } */
 </style>
+
 <body>
-    <h2>Hello Everyone</h2>
+    <div>
+        <h2>Hello Everyone</h2>
+        <p>Hello Everyone</p>
+        <h1>Hello Everyone</h1>
+        <input type="text" placeholder="helo">
+        <a href="">google</a>
+    </div>
 </body>
+
 </html>
