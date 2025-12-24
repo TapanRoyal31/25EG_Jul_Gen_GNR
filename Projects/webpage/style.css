@@ -11,8 +11,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: antiquewhite;
 }
- 
+
 /* navbar section */
 .navbar {
   background-color: white;
@@ -63,6 +64,7 @@ body {
   mask-size: cover;
   mask-repeat: no-repeat;
   mask-position: bottom;
+  animation: textappear ease-in-out 1.8s both;
 }
 
 .herotxt {
@@ -75,29 +77,150 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 900;
+  animation: textappear ease-in-out 1.8s both;
+}
+
+@keyframes textappear {
+  from {
+    opacity: 0;
+    transform: translateY(100px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50px) scale(1);
+  }
+}
+
+.header {
+  font-size: 36px;
+  font-family: monospace;
+  font-weight: 700;
+  margin: 100px 0px;
+  animation: rotate both;
+  -webkit-animation-timeline: view(70% 20%);
+  animation-timeline: view(70% 20%);
+}
+
+@keyframes rotate {
+  from {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+.autoshow {
+  animation: autoshowAnimation both;
+  -webkit-animation-timeline: view(70% 20%);
+  animation-timeline: view(70% 20%);
+}
+
+@keyframes autoshowAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .content {
   font-size: 1.2rem;
   font-weight: 700;
   color: antiquewhite;
-  line-height: 1.5rem;
+  line-height: 1rem;
   font-family: "Courier New", Courier, monospace;
   text-indent: 100px;
   text-align: justify;
 }
 
-.fa-solid{
-  color:#00ced1;
+.s {
+  margin-bottom: 20px;
 }
 
-.fa-brands{
+.languages {
+  padding: 20px;
+  color: #000;
+  width: 97vw;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.one {
+  background: conic-gradient(#ef0107 70%, white 60%);
+}
+
+.two {
+  background: conic-gradient(#4169e1 80%, white 60%);
+}
+
+.three {
+  background: conic-gradient(#008200 90%, white 60%);
+}
+
+.circle::before {
+  content: '';
+  color: #000;
+  height: 125px;
+  width: 125px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+}
+
+.one::before{
+  content: '70%';
+}
+
+.two::before{
+  content: '80%';
+}
+
+.three::before{
+  content: '90%';
+}
+
+
+.fa-solid {
+  color: #00ced1;
+}
+
+.fa-brands {
   color: #000000;
 }
 
 /* footer section */
 .footer {
-  margin-top: 8rem;
   height: 8rem;
   width: 100%;
   font-size: larger;
